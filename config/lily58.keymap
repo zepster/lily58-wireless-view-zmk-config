@@ -60,5 +60,15 @@
                              &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans
             >;
         };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans                    &trans  &trans  &trans                    &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18
+&trans  &trans  &trans                    &trans  &trans  &trans                    &trans   &trans   &trans   &trans   &trans   &trans
+&trans  &trans  &kp LS(LC(LG(NUMBER_4)))  &trans  &trans  &trans                    &trans   &trans   &trans   &trans   &trans   &trans
+&trans  &trans  &trans                    &trans  &trans  &trans  &trans    &trans  &trans   &trans   &trans   &trans   &trans   &trans
+                                          &trans  &trans  &trans  &trans    &trans  &trans   &trans   &trans
+            >;
+        };
     };
 };
