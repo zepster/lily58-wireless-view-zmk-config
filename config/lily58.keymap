@@ -27,7 +27,7 @@
 &kp TAB           &kp Q   &kp W   &kp E     &kp R     &kp T                                  &kp Y   &kp U              &kp I      &kp O    &kp P     &kp MINUS
 &kp LSHFT         &kp A   &kp S   &kp D     &kp F     &kp G                                  &kp H   &kp J              &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_CONTROL  &kp Z   &kp X   &kp C     &kp V     &kp B     &kp GRAVE         &kp RET    &kp N   &kp M              &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                                  &kp LBKT  &kp LALT  &kp LGUI  &lt 1 CAPSLOCK    &kp SPACE  &mo 0   &kp RIGHT_CONTROL  &kp RBKT
+                                  &kp LBKT  &kp LALT  &kp LGUI  &lt 1 CAPSLOCK    &kp SPACE  &mo 2   &kp RIGHT_CONTROL  &kp RBKT
             >;
         };
 
@@ -37,7 +37,7 @@
 &trans  &trans  &trans    &trans     &kp MINUS      &kp LS(LBRC)                    &kp LS(RPAR)  &kp EQUAL     &trans  &kp LBKT      &kp RBKT   &trans
 &trans  &trans  &trans    &trans     &kp LS(UNDER)  &kp LS(LPAR)                    &trans        &kp LS(PLUS)  &trans  &trans        &trans     &trans
 &trans  &trans  &kp HOME  &kp PG_UP  &kp PAGE_DOWN  &kp END       &trans    &trans  &trans        &trans        &trans  &trans        &trans     &trans
-                          &trans     &trans         &trans        &trans    &trans  &trans        &trans        &trans
+                          &trans     &trans         &trans        &trans    &trans  &mo 3         &trans        &trans
             >;
         };
 
@@ -47,7 +47,7 @@
 &trans  &trans  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &trans                       &kp K_MUTE       &kp K_VOL_UP  &kp UP    &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &trans
 &trans  &trans  &trans  &kp LBKT      &kp RBKT      &trans                       &kp K_VOLUME_UP  &kp LEFT      &kp DOWN  &kp RIGHT                 &trans                     &trans
 &trans  &trans  &trans  &trans        &trans        &trans  &kp GRAVE    &trans  &trans           &trans        &trans    &trans                    &trans                     &trans
-                        &trans        &trans        &trans  &trans       &trans  &trans           &trans        &trans
+                        &trans        &trans        &mo 3   &trans       &trans  &trans           &trans        &trans
             >;
         };
 
