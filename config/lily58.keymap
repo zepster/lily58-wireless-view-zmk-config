@@ -67,7 +67,7 @@
 &trans  &trans  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &trans                       &kp K_MUTE         &kp K_VOL_UP  &kp UP    &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &trans
 &trans  &trans  &trans  &kp LBKT      &kp RBKT      &trans                       &kp K_VOLUME_DOWN  &kp LEFT      &kp DOWN  &kp RIGHT                 &trans                     &trans
 &trans  &trans  &trans  &trans        &trans        &trans  &kp GRAVE    &trans  &trans             &trans        &trans    &trans                    &trans                     &trans
-                        &trans        &trans        &mo 3   &trans       &trans  &trans             &trans        &trans
+                        &trans        &trans        &trans  &mo 3        &trans  &trans             &trans        &trans
             >;
         };
 
